@@ -1019,6 +1019,7 @@ html{
 @media only screen and (max-width:375px) {
     .stats-content span{
         font-size: 2rem;
+        padding-left: 2rem;
     }
     .stats-content p{
         width: 2rem;
@@ -1084,7 +1085,19 @@ html{
     font-weight: 400;
     font-size: 1.2rem;
     margin-bottom: 1.3rem;
+    cursor: pointer;
 }
+.footer-cont-2 .service .our-services{
+    width: 90%;
+}
+
+.footer-cont-2 .service .our-services p:hover i{
+    color: #32b03c;
+    padding-right: 1.2rem;
+    transition: 0.2s ease-in-out;
+
+}
+
 .footer-cont-2 .service .our-services p i{
     margin-right: 1rem;
 }
