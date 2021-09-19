@@ -1173,6 +1173,10 @@ html{
     color: #595e67;
     font-size: 1.2rem;
     font-weight: 600;
+    cursor: pointer;
+}
+.footer2-content p:hover{
+    color: #005bff;
 }
 .footer2-cont-7 span{
     color: #32b03c;
@@ -1184,7 +1188,7 @@ html{
     }
 }
 
-@media (max-width:1440px) and (min-width:1440px) {
+@media (max-width:1480px) and (min-width:1399px) {
     .nav-line-item-1{
         right: 11rem;
     }
@@ -1194,7 +1198,7 @@ html{
 }
 
 
-@media (max-width:2560px) and (min-width:2559px) {
+@media (max-width:2660px) and (min-width:2559px) {
     .nav-line{
         width: 17%;
     }
